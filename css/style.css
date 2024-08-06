@@ -1,0 +1,39 @@
+.click{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    color: black;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.click:hover{
+    background-color: rgb(61, 209, 209);
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#click1{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: aqua;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    display: none;
+    align-items: center;
+    justify-content: center;
+   
+}
